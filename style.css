@@ -4,6 +4,13 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
 }
 
 .element img {
@@ -11,6 +18,7 @@ body {
     height: 100px;
     border-radius: 25px;
     border: 2px solid blue;
+    display: flex;
 }
 
 img {
@@ -23,6 +31,10 @@ img {
 
 .footer {
     font-size: 16px;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,
@@ -52,16 +64,30 @@ ul {
     gap: 8px;
 }
 
-.quote {
+.quotation {
     background-color: #e5e7eb;
+    padding: 128px 32px;
+    margin: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 50%;
 }
 
-.quote .author {
+.quotation .author {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .logo {
