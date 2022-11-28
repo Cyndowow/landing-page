@@ -11,6 +11,7 @@ body {
 .body {
     display: flex;
     flex-direction: column;
+    
 }
 
 .element img {
@@ -52,12 +53,16 @@ img {
 }
 
 .main-image {
+    display: flex;
+    align-items: center;
+    margin-right: 15%;
 }
 
 .main .subtext {
     color: #e5e7eb;
     font-size: 18px;
     width: 50%;
+    font-weight: 100;
 }
 
 button {
@@ -74,6 +79,7 @@ button {
     font-size: 48px;
     font-weight: bolder;
     width: 50%;
+    margin-left: 15%;
 }
 
 ul {
@@ -87,19 +93,20 @@ ul {
 .info {
     display: flex;
     text-align: center;
-    flex-direction: column;
+    justify-content: center;
+    gap: -25px;
+    margin-inline: 25%;
 }
 
 .info-header {
+    text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
-.element {
-
-}
 
 .quotation {
     background-color: #e5e7eb;
@@ -131,6 +138,11 @@ ul {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
+    margin-left: 15%;
+}
+
+.links {
+    margin-right: 15%;
 }
 
 a {
@@ -171,3 +183,4 @@ li {
     border: 1px solid #f9faf8;
     border-radius: 8px;
 }
+
